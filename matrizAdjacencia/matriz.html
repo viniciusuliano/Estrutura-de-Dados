@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+  <script src="/matrizAdjacencia/matriz.js"></script>
+  <link rel="stylesheet" href="/matrizAdjacencia/matriz.css">
+</head>
+<body>
+  <main class="container">
+    <div>
+      <label for="numVertices">Número de vértices:</label>
+      <input type="number" id="numVertices" name="numVertices">
+      <button onclick="criarFormulario()">Criar Formulário</button>
+    </div>
+    
+    <div id="form-container"></div>
+    <div id="network-container"></div>
+  
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/listaAdjacencia/lista.css">
+    <title>Lista Adjacencia</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+    <main class="lista">
+        <div class="inputLista">
+            <label for="vertices">Vértices (separe por espaço): </label>
+            <input type="text" id="vertices">
+        </div>
+        <div class="inputLista">
+            <label for="arestas">Arestas (separe por vírgulas, ex: 1-2,2-3): </label>
+            <input type="text" id="arestas">
+        </div>
+        <button id="botao__gerarGrafo">Construir Grafo</button>
+        <div id="mynetwork"></div>
+    </main>
+    <script src="/listaAdjacencia/lista.js"></script>
+</body>
+</html>
